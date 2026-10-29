@@ -1,0 +1,20 @@
+{
+  "algorithm": "louvain",
+  "algorithm_seed": 42,
+  "community_ids_are_rankings": false,
+  "graph_representation": "Weighted undirected projection for modularity; for each unordered user pair, sum the directed interaction weights in both directions. The original directed graph is used for display.",
+  "modularity": 0.19761230825420015,
+  "num_communities": 6,
+  "community_sizes": {
+    "0": 10,
+    "1": 9,
+    "2": 5,
+    "3": 2,
+    "4": 3,
+    "5": 1
+  },
+  "num_input_posts": 180,
+  "num_matched_posts": 180,
+  "num_unmatched_posts": 0,
+  "unmatched_user_ids": []
+}

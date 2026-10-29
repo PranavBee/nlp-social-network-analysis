@@ -1,0 +1,516 @@
+{
+  "num_users": 30,
+  "metrics": {
+    "degree_centrality": {
+      "interpretation": "Total distinct incoming plus outgoing neighbors, normalized by n-1. A user can be both the source and target of an edge with the same neighbor.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.2298850574712644,
+        "std": 0.207534138911124,
+        "min": 0.0,
+        "median": 0.1724137931034483,
+        "max": 0.9310344827586207
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_01",
+          "username": "maplebyte",
+          "score": 0.9310344827586207
+        },
+        {
+          "rank": 2,
+          "user_id": "user_11",
+          "username": "bluejaystudio",
+          "score": 0.8275862068965517
+        },
+        {
+          "rank": 3,
+          "user_id": "user_21",
+          "username": "cedarcloud",
+          "score": 0.6896551724137931
+        },
+        {
+          "rank": 4,
+          "user_id": "user_16",
+          "username": "willowwidget",
+          "score": 0.3103448275862069
+        },
+        {
+          "rank": 5,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.27586206896551724
+        },
+        {
+          "rank": 6,
+          "user_id": "user_03",
+          "username": "orbitowl",
+          "score": 0.24137931034482757
+        },
+        {
+          "rank": 6,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.24137931034482757
+        },
+        {
+          "rank": 8,
+          "user_id": "user_08",
+          "username": "paperrocket",
+          "score": 0.20689655172413793
+        },
+        {
+          "rank": 8,
+          "user_id": "user_09",
+          "username": "velvetfern",
+          "score": 0.20689655172413793
+        },
+        {
+          "rank": 8,
+          "user_id": "user_12",
+          "username": "quietquartz",
+          "score": 0.20689655172413793
+        }
+      ]
+    },
+    "in_degree_centrality": {
+      "interpretation": "Distinct users who mention or reply to this user, divided by n-1.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.1149425287356322,
+        "std": 0.2054225912828975,
+        "min": 0.0,
+        "median": 0.06896551724137931,
+        "max": 0.8275862068965517
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_01",
+          "username": "maplebyte",
+          "score": 0.8275862068965517
+        },
+        {
+          "rank": 2,
+          "user_id": "user_11",
+          "username": "bluejaystudio",
+          "score": 0.7241379310344828
+        },
+        {
+          "rank": 3,
+          "user_id": "user_21",
+          "username": "cedarcloud",
+          "score": 0.5862068965517241
+        },
+        {
+          "rank": 4,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.13793103448275862
+        },
+        {
+          "rank": 4,
+          "user_id": "user_16",
+          "username": "willowwidget",
+          "score": 0.13793103448275862
+        },
+        {
+          "rank": 6,
+          "user_id": "user_12",
+          "username": "quietquartz",
+          "score": 0.10344827586206896
+        },
+        {
+          "rank": 6,
+          "user_id": "user_28",
+          "username": "honeyvector",
+          "score": 0.10344827586206896
+        },
+        {
+          "rank": 8,
+          "user_id": "user_03",
+          "username": "orbitowl",
+          "score": 0.06896551724137931
+        },
+        {
+          "rank": 8,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.06896551724137931
+        },
+        {
+          "rank": 8,
+          "user_id": "user_07",
+          "username": "sunnycircuit",
+          "score": 0.06896551724137931
+        }
+      ]
+    },
+    "out_degree_centrality": {
+      "interpretation": "Distinct users this user mentions or replies to, divided by n-1.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.11494252873563218,
+        "std": 0.04014769930246662,
+        "min": 0.0,
+        "median": 0.10344827586206896,
+        "max": 0.1724137931034483
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_03",
+          "username": "orbitowl",
+          "score": 0.1724137931034483
+        },
+        {
+          "rank": 1,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.1724137931034483
+        },
+        {
+          "rank": 1,
+          "user_id": "user_16",
+          "username": "willowwidget",
+          "score": 0.1724137931034483
+        },
+        {
+          "rank": 1,
+          "user_id": "user_20",
+          "username": "fableframe",
+          "score": 0.1724137931034483
+        },
+        {
+          "rank": 1,
+          "user_id": "user_23",
+          "username": "softsignal",
+          "score": 0.1724137931034483
+        },
+        {
+          "rank": 6,
+          "user_id": "user_05",
+          "username": "mintyvector",
+          "score": 0.13793103448275862
+        },
+        {
+          "rank": 6,
+          "user_id": "user_08",
+          "username": "paperrocket",
+          "score": 0.13793103448275862
+        },
+        {
+          "rank": 6,
+          "user_id": "user_09",
+          "username": "velvetfern",
+          "score": 0.13793103448275862
+        },
+        {
+          "rank": 6,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.13793103448275862
+        },
+        {
+          "rank": 6,
+          "user_id": "user_14",
+          "username": "teacupgalaxy",
+          "score": 0.13793103448275862
+        }
+      ]
+    },
+    "closeness_centrality": {
+      "interpretation": "Incoming closeness: directed shortest paths from other users to this user. NetworkX's wf_improved=True adjustment scales by the fraction of users that can reach them.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.2509929604812332,
+        "std": 0.23152098834185303,
+        "min": 0.0,
+        "median": 0.2630906768837803,
+        "max": 0.8448275862068966
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_01",
+          "username": "maplebyte",
+          "score": 0.8448275862068966
+        },
+        {
+          "rank": 2,
+          "user_id": "user_11",
+          "username": "bluejaystudio",
+          "score": 0.7724137931034484
+        },
+        {
+          "rank": 3,
+          "user_id": "user_21",
+          "username": "cedarcloud",
+          "score": 0.6931918656056587
+        },
+        {
+          "rank": 4,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.4661117717003568
+        },
+        {
+          "rank": 5,
+          "user_id": "user_12",
+          "username": "quietquartz",
+          "score": 0.4505747126436782
+        },
+        {
+          "rank": 6,
+          "user_id": "user_23",
+          "username": "softsignal",
+          "score": 0.4096133751306165
+        },
+        {
+          "rank": 7,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.37547892720306514
+        },
+        {
+          "rank": 8,
+          "user_id": "user_08",
+          "username": "paperrocket",
+          "score": 0.3337590464027246
+        },
+        {
+          "rank": 9,
+          "user_id": "user_16",
+          "username": "willowwidget",
+          "score": 0.32968881412952067
+        },
+        {
+          "rank": 10,
+          "user_id": "user_28",
+          "username": "honeyvector",
+          "score": 0.314354450681636
+        }
+      ]
+    },
+    "betweenness_centrality": {
+      "interpretation": "Normalized directed shortest paths: the fraction of ordered source-target shortest paths that pass through this user. Paths are unweighted because edge weight is frequency.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.041379310344827586,
+        "std": 0.06448888094628272,
+        "min": 0.0,
+        "median": 0.004310344827586207,
+        "max": 0.23737684729064037
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_01",
+          "username": "maplebyte",
+          "score": 0.23737684729064037
+        },
+        {
+          "rank": 2,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.2025451559934319
+        },
+        {
+          "rank": 3,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.17015599343185553
+        },
+        {
+          "rank": 4,
+          "user_id": "user_21",
+          "username": "cedarcloud",
+          "score": 0.13704844006568145
+        },
+        {
+          "rank": 5,
+          "user_id": "user_23",
+          "username": "softsignal",
+          "score": 0.09474548440065682
+        },
+        {
+          "rank": 6,
+          "user_id": "user_16",
+          "username": "willowwidget",
+          "score": 0.09419129720853857
+        },
+        {
+          "rank": 7,
+          "user_id": "user_08",
+          "username": "paperrocket",
+          "score": 0.06958128078817734
+        },
+        {
+          "rank": 8,
+          "user_id": "user_11",
+          "username": "bluejaystudio",
+          "score": 0.05088259441707719
+        },
+        {
+          "rank": 9,
+          "user_id": "user_03",
+          "username": "orbitowl",
+          "score": 0.04386288998357964
+        },
+        {
+          "rank": 10,
+          "user_id": "user_25",
+          "username": "rainyrobot",
+          "score": 0.03891625615763548
+        }
+      ]
+    },
+    "eigenvector_centrality": {
+      "interpretation": "Incoming-neighbor convention: a user scores higher when pointed to by users with high scores. Interaction frequency is used as edge weight. NetworkX power iteration uses tolerance 1e-4 to handle reducible/disconnected graphs; it retries with up to 5,000 iterations.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.07011033741013342,
+        "std": 0.16857601822789203,
+        "min": 2.410483590332307e-07,
+        "median": 0.005713569254164665,
+        "max": 0.7051375594381143
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_01",
+          "username": "maplebyte",
+          "score": 0.7051375594381143
+        },
+        {
+          "rank": 2,
+          "user_id": "user_11",
+          "username": "bluejaystudio",
+          "score": 0.5886846867055702
+        },
+        {
+          "rank": 3,
+          "user_id": "user_21",
+          "username": "cedarcloud",
+          "score": 0.34062977502032066
+        },
+        {
+          "rank": 4,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.13875828263568404
+        },
+        {
+          "rank": 5,
+          "user_id": "user_12",
+          "username": "quietquartz",
+          "score": 0.11638441499857861
+        },
+        {
+          "rank": 6,
+          "user_id": "user_23",
+          "username": "softsignal",
+          "score": 0.06696877825168923
+        },
+        {
+          "rank": 7,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.03231807664066232
+        },
+        {
+          "rank": 8,
+          "user_id": "user_08",
+          "username": "paperrocket",
+          "score": 0.03190998176881907
+        },
+        {
+          "rank": 9,
+          "user_id": "user_25",
+          "username": "rainyrobot",
+          "score": 0.013149911130339831
+        },
+        {
+          "rank": 9,
+          "user_id": "user_29",
+          "username": "mossyminute",
+          "score": 0.013149911130339831
+        }
+      ]
+    },
+    "pagerank": {
+      "interpretation": "Rank flows along directed edges from users who mention/reply to their targets. Repeated interactions influence transition probability through edge weight; teleportation keeps disconnected and isolated users in the ranking.",
+      "distribution": {
+        "count": 30,
+        "mean": 0.033333333333333326,
+        "std": 0.06596502636929844,
+        "min": 0.0051457975986277885,
+        "median": 0.00876522420171241,
+        "max": 0.2631022491419355
+      },
+      "top_users": [
+        {
+          "rank": 1,
+          "user_id": "user_01",
+          "username": "maplebyte",
+          "score": 0.2631022491419355
+        },
+        {
+          "rank": 2,
+          "user_id": "user_11",
+          "username": "bluejaystudio",
+          "score": 0.2548599044372733
+        },
+        {
+          "rank": 3,
+          "user_id": "user_21",
+          "username": "cedarcloud",
+          "score": 0.14516346336393385
+        },
+        {
+          "rank": 4,
+          "user_id": "user_06",
+          "username": "cloudpebble",
+          "score": 0.06178401354091809
+        },
+        {
+          "rank": 5,
+          "user_id": "user_12",
+          "username": "quietquartz",
+          "score": 0.04318292032144419
+        },
+        {
+          "rank": 6,
+          "user_id": "user_23",
+          "username": "softsignal",
+          "score": 0.029823586388427397
+        },
+        {
+          "rank": 7,
+          "user_id": "user_10",
+          "username": "lunarloaf",
+          "score": 0.018304592131863036
+        },
+        {
+          "rank": 8,
+          "user_id": "user_08",
+          "username": "paperrocket",
+          "score": 0.018287632422163982
+        },
+        {
+          "rank": 9,
+          "user_id": "user_16",
+          "username": "willowwidget",
+          "score": 0.01362751473903269
+        },
+        {
+          "rank": 10,
+          "user_id": "user_25",
+          "username": "rainyrobot",
+          "score": 0.011309289278558336
+        }
+      ]
+    }
+  }
+}
